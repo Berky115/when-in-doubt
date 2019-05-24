@@ -37,7 +37,8 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 ```
 
 
-# GIT: 
+# GIT
+
 ## General
 Push new repo : https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line 
 
