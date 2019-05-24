@@ -1,5 +1,3 @@
-When in doubt list
-
 # JS
 
 ## General:
