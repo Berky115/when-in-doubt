@@ -1,11 +1,11 @@
 When in doubt list
 
-# JS:
+# JS
 
 ## General:
 - Wonderful book : https://livebook.manning.com/#!/book/secrets-of-the-javascript-ninja-second-edition
 
-## Lodash: 
+### Lodash: 
 - All purpose reminder : https://devhints.io/lodash 
 - Useful functions : https://colintoh.com/blog/lodash-10-javascript-utility-functions-stop-rewriting 
 - Docs : https://lodash.com/docs/4.17.11 
@@ -39,7 +39,8 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 ```
 
 
-## GIT: 
+# GIT: 
+## General
 Push new repo : https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line 
 
 ## Prototyping:
@@ -47,7 +48,7 @@ Push new repo : https://help.github.com/en/articles/adding-an-existing-project-t
 - Instance vs prototype : https://www.thecodeship.com/web-development/methods-within-constructor-vs-prototype-in-javascript/
 
 
-# asp.net:
+# Asp.net
 ## General
 - Get started! - https://docs.microsoft.com/en-us/visualstudio/ide/quickstart-aspnet-core?view=vs-2019
 
