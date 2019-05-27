@@ -2,6 +2,7 @@
 
 ## General
 - Wonderful book : https://livebook.manning.com/#!/book/secrets-of-the-javascript-ninja-second-edition
+- esLint - configuration : https://eslint.org/docs/user-guide/configuring#configuring-rules
 
 ### Lodash 
 - All purpose reminder : https://devhints.io/lodash 
