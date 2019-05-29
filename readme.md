@@ -3,6 +3,9 @@
 ## General
 - Wonderful book : https://livebook.manning.com/#!/book/secrets-of-the-javascript-ninja-second-edition
 - esLint - configuration : https://eslint.org/docs/user-guide/configuring#configuring-rules
+- Instance vs prototype : https://www.thecodeship.com/web-development/methods-within-constructor-vs-prototype-in-javascript/
+- Prototyping example : https://livebook.manning.com/#!/book/secrets-of-the-javascript-ninja-second-edition/chapter-7/36
+
 
 ### Lodash 
 - All purpose reminder : https://devhints.io/lodash 
@@ -42,11 +45,21 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 
 ## General
 Push new repo : https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line 
+Command reference : https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
+detailed reference : https://www.git-tower.com/blog/git-cheat-sheet
 
-## Prototyping
-- Manning book with simple example : https://livebook.manning.com/#!/book/secrets-of-the-javascript-ninja-second-edition/chapter-7/36
-- Instance vs prototype : https://www.thecodeship.com/web-development/methods-within-constructor-vs-prototype-in-javascript/
+# Python
+- Mosh basics page: https://programmingwithmosh.com/python/python-3-cheat-sheet/
+- General reference page: https://www.pythonsheets.com/
+- Standards page : https://www.pythonsheets.com/notes/python-code-style.html
+- Twitter Bot project : https://www.digitalocean.com/community/tutorials/how-to-create-a-twitterbot-with-python-3-and-the-tweepy-library
 
+
+# CSS 
+- Grid Garden Game : https://cssgridgarden.com/
+- Reference page : https://devhints.io/css
+- Flexbox guide : https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- Flex Zombies Game : https://mastery.games/p/flexbox-zombies
 
 # Asp.net
 ## General
