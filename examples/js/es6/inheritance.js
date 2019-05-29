@@ -1,4 +1,4 @@
-const Utils = require("./utils");
+const Utils = require("../utils");
 
 /*
 Here we can see inheritance simulated through the class , extends and super keywords.

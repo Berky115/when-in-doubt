@@ -4,7 +4,8 @@
   "description": "An app designed to house useful information for being a better dev!",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "lint": "node_modules/.bin/eslint"
   },
   "author": "Drew Facchiano",
   "license": "ISC",
