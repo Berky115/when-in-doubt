@@ -35,7 +35,7 @@ OldNinja.prototype.swingSword = function () {
 
 // static equivilent
 OldNinja.compare = function (ninja, ninja2) {
-  return ninja1.level - ninja2.level;
+  return ninja.level - ninja2.level;
 };
 
 var oldNinja = new OldNinja("Vergil");

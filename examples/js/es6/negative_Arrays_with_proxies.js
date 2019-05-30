@@ -22,7 +22,8 @@ function createNegativeArrayProxy (array) {
     },
     set: (target, index, val) => {
       index = +index;
-      return target[index < 0 ? target.length + index : index] = val;
+      target[index < 0 ? target.length + index : index] = val;
+      return target[index < 0 ? target.length + index : index];
     }
   });
 }

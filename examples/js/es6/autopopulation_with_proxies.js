@@ -7,7 +7,7 @@ With a proxy - You have the ability to easily populate with different types and 
 function Folder () {
   return new Proxy({}, {
     get: (target, property) => {
-      report("Reading " + property);
+      console.log("Reading " + property);
 
       if (!(property in target)) {
         target[property] = new Folder();

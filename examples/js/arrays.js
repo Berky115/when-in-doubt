@@ -47,3 +47,11 @@ ninjas.splice(1, 1);
 Utils.assert(ninjas.length === 3, "start at 1 remove 1 element");
 ninjas.splice(1, 2);
 Utils.assert(ninjas.length === 1, "start at 1 remove 2 element");
+
+/*
+Note , a splice without a second argument will remove everything starting from said index.
+*/
+
+const demons = ["Dante", "Vergil", "Nero", "Sparda"];
+demons.splice(1);
+Utils.assert(demons.length === 1, "Removed everything but the first demon");
