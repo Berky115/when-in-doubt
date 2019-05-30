@@ -43,9 +43,9 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 # GIT
 
 ## General
-Push new repo : https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line 
-Command reference : https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
-detailed reference : https://www.git-tower.com/blog/git-cheat-sheet
+- Push new repo : https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line 
+- Command reference : https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
+- detailed reference : https://www.git-tower.com/blog/git-cheat-sheet
 
 # Python
 - Mosh basics page: https://programmingwithmosh.com/python/python-3-cheat-sheet/
