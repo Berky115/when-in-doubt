@@ -13,6 +13,10 @@
 - Docs : https://lodash.com/docs/4.17.11 
 - Implementation ref : https://youmightnotneed.com/lodash/ 
 
+### RegEx
+- JS specific cheatsheet : https://www.debuggex.com/cheatsheet/regex/javascript
+- Practical introduction : https://eloquentjavascript.net/09_regexp.html
+- RegEx testing playground : https://regex101.com/#javascript
 ## Testing
 
 ### Mocha - https://mochajs.org/
