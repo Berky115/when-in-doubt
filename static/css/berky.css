@@ -5,7 +5,7 @@
 }
 
 a:link, a:visited {
-  color: black;
+  color: #292330;
 }
 
 a:link, a:hover {
@@ -63,12 +63,12 @@ ul li:hover{
   grid-row: 2/4;
 }
 .small_header{
-  color: black;
+  color: #302c20;
 }
 
 #gridBody_JS {
   order:1;
-  color: teal;
+  color: #6316c1;
   grid-column: 1/10;
   grid-row: 6/8;
 }
@@ -77,19 +77,31 @@ ul li:hover{
   order:1;
   color: orangered;
   grid-column: 1/10;
-  grid-row: 13;
+  grid-row: 12;
 }
 
 #gridBody_GIT {
   order:1;
   color: blue;
   grid-column: 1/10;
-  grid-row: 17;
+  grid-row: 15;
 }
 
 #gridBody_PYTHON {
   order:1;
-  color: greenyellow;
+  color: #17c166;
   grid-column: 1/10;
-  grid-row: 21;
+  grid-row: 18;
+}
+
+#apple {
+  order:1;
+  grid-column: 8/10;
+  grid-row: 3/8;
+}
+
+#stars {
+  order:-1;
+  grid-column: 2/3;
+  grid-row: 18;
 }

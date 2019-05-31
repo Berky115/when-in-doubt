@@ -6,4 +6,4 @@ g modifier: global. All matches (don't return after first match)
 
 */
 
-console.log("ABCDEfg".replace(/[A-Z]/g,"X"));
+console.log("ABCDEfg".replace(/[A-Z]/g, "X"));
