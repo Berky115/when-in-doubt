@@ -20,21 +20,21 @@ const demons = new Set(["Dante", "Nero"]);
 
 Utils.assert(demons.has("Dante"), "Hattori is in our set");
 Utils.assert(demons.size === 2, "There are only three demons in our set!");
-
 Utils.assert(!demons.has("Vergil"), "Vergil is not in, yet..");
+
 demons.add("Vergil");
+
 Utils.assert(demons.has("Vergil"), "Vergil is added");
 Utils.assert(demons.size === 3, "There are 3 demons in our set!");
-
 Utils.assert(demons.has("Dante"), "Dante is already added");
+
 demons.add("Dante");
+
 Utils.assert(demons.size === 3, "Adding Dante again has no effect");
 
 for (let demon of demons) {
   Utils.assert(demon !== null, demons);
 }
-
-// Interesting use cases for Sets
 
 // Combining sets: Union
 

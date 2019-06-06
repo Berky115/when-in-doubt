@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <style>
+      #outerContainer {width:100px; height:100px; background-color: blue;}
+      #innerContainer {width:50px; height:50px; background-color: red;}
+    </style>
+  </head>
+  <body>
+    <div id="outerContainer">
+      <div id="innerContainer"></div>
+    </div>
+    <script>
+      const outerContainer = document.getElementById("outerContainer");
+      const innerContainer = document.getElementById("innerContainer");
+
+      outerContainer.addEventListener("click", () => {
+        console.log("Outer container click");
+      });
+
+      innerContainer.addEventListener("click", () => {
+        console.log("Inner container click");
+      });
+
+      document.addEventListener("click", () => {
+        console.log("Document click");			
+      });
+    </script>
+  </body>
+</html>
+
+
+
+
+

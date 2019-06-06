@@ -59,7 +59,6 @@ Utils.assert(demonIslandMap.size === 0,
 // Iterating over maps
 
 /*
-
 Iterating over maps has several advantages...
 
 - We can easily used a for of loop

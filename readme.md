@@ -66,5 +66,24 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 
 # Asp.net
 ## General
-- Get started! - https://docs.microsoft.com/en-us/visualstudio/ide/quickstart-aspnet-core?view=vs-2019
+- Get started! : https://docs.microsoft.com/en-us/visualstudio/ide/quickstart-aspnet-core?view=vs-2019
+
+# WebDev
+## General
+- Short: How does a browser work? : https://wsvincent.com/what-happens-when-url/
+- Long: How does a browser work? : https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a
+### Short version:
+```
+You enter a URL into a web browser. 
+
+1 type desired url
+2 convert to IP
+3 check caches/ lookup DNS query if necessary
+4 Handshake established
+5 Send request (Get)
+6: Server transaltes request and builds response
+7: Server sends response with page and status code
+8: Browser buils page based on html blueprint. Then reads in accosiated CSS/Javascript
+```
+
 

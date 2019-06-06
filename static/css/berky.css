@@ -84,14 +84,14 @@ ul li:hover{
   order:1;
   color: blue;
   grid-column: 1/10;
-  grid-row: 15;
+  grid-row: 16;
 }
 
 #gridBody_PYTHON {
   order:1;
   color: #17c166;
   grid-column: 1/10;
-  grid-row: 18;
+  grid-row: 19;
 }
 
 #apple {

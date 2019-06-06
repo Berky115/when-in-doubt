@@ -1,0 +1,43 @@
+<!--
+
+    Below is a quick sample of how one could use d3 along with an array of data in order to pass values to the DOM
+
+    Note the function chaining 'data.enter.append.html....' as a common pattern for building using d3.
+
+-->
+
+
+
+<!doctype html>
+<html>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<style>
+   #borderdiv {
+   width: 200px;
+   height: 50px;
+border: 1px solid gray;
+}
+</style>
+<body>
+   <div id="borderdiv"></div>
+   </body>
+   <script>
+        var someData = ["filler", "filler", "filler", "filler"];
+        d3.select("body").selectAll("div")
+        .data(someData)
+        .enter()
+        .append("div")
+        .html("Wow")
+        .append("span")
+        .html("Even More Wow")
+        .style("font-weight", "900");
+
+        let someNumbers = [1,2,3,4,5,55,53,34,333,234234,23,211,335]
+        smallerNumbers = someNumbers.filter( (val) => val <= 40);
+        d3.select("body").selectAll("div")
+        .data(smallerNumbers)
+        .enter()
+        .append("div")
+        .html(smallerNumbers);
+   </script>
+</html>

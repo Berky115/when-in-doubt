@@ -29,6 +29,13 @@ let makeCounter = function (value) {
   };
 };
 
+
+// function test(x){
+//   return function(y){
+//     return x+y;
+//   }
+// }
+
 let counter = makeCounter(15);
 Utils.assert(counter.value() === 15, "A counter object is made using a constructor");
 counter.increment();
@@ -37,3 +44,6 @@ counter.setValue(115);
 Utils.assert(counter.value() === 115, "A common example of this might be getters/setters for private variables");
 let callMe = counter.sums(10);
 Utils.assert(callMe(5) === 15, "We can also use closures to set callback functions");
+
+// let testMe = test(5);
+// console.log(testMe(5));
