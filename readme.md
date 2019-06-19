@@ -91,7 +91,7 @@ You enter a URL into a web browser.
 5 Send request (Get)
 6: Server translates request and builds response
 7: Server sends response with page and status code
-8: Browser buils page based on html blueprint. Then reads in accosiated CSS/Javascript
+8: Browser buils page based on html blueprint. Then reads in associated CSS/Javascript
 ```
 
 ## Fun Facts
