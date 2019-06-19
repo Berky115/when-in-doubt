@@ -4,16 +4,25 @@
   "description": "An app designed to house useful information for being a better dev!",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon --exec babel-node index.js",
     "lint": "node_modules/.bin/eslint"
   },
   "author": "Drew Facchiano",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.0",
+    "csv-parser": "^2.3.0",
+    "d3": "^5.9.2",
+    "d3-fetch": "^1.1.2",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "jsdom": "^15.1.1",
+    "node-fetch": "^2.6.0",
+    "node-fetch-polyfill": "^2.0.6",
     "path": "^0.12.7"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
     "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0",
     "eslint": "^5.16.0",
@@ -23,6 +32,7 @@
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-standard": "^4.0.0",
     "mocha": "^6.1.4",
+    "nodemon": "^1.19.1",
     "stylelint": "^10.0.1"
   }
 }

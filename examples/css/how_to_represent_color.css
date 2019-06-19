@@ -1,0 +1,15 @@
+"rgb(255,0,0)"                  1
+"#ff0000"                       2
+"red"                           3
+
+#rgb {
+    color : rgb(255,0,0) 
+}
+
+#hex {
+    color: #ff0000
+}
+
+#web-color-name {
+    color : red
+}

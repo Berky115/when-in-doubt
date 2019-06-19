@@ -8,35 +8,24 @@ const Utils = require("../utils");
 
 let mixedValues = [[], [], [2, 3, 45, 5, [2, 2, 3], 4, 5]];
 
-
-
-
 function flatten(elements){
   let result = [];
   for(let elem of elements){
     if(Array.isArray(elem)) {
       result = result.concat(flatten(elem));
     } else {
-      console.log(elem, "!!")
       result = result.concat(elem);
     }
   }
   return result;
 }
 
+function flattenEs6(elements) {
+  return elements.reduce((aggro, toFlatten) => {
+    return aggro.concat( Array.isArray(toFlatten) ? flatten(toFlatten): toFlatten );
+  },[]);
+}
 
 
-
-
-
-
-
-
-// function flatten(values){
-//   return values.reduce( (aggro, toFlatten) => {
-//     return aggro.concat( Array.isArray(toFlatten) ? flatten(toFlatten) : toFlatten);
-//   }, []);
-// }
-
-
-Utils.assert(flatten(mixedValues), "We have flattened these values to :" + flatten(mixedValues));
+Utils.assert(flatten(mixedValues), "Flattened : " + flatten(mixedValues));
+Utils.assert(flattenEs6(mixedValues), "Flattened : " + flatten(mixedValues));

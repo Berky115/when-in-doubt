@@ -27,8 +27,6 @@ function isDeepEqual(obj1 , obj2){
 }
 
 
-
-
 const obj = {
     val:1
 }
@@ -67,6 +65,7 @@ funcObj1 = {
 funcObj2 = {
     func : func2
 }
+
 
 console.log(isDeepEqual([],[]));
 console.log(isDeepEqual({val:1},{val:1}));

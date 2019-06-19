@@ -1,20 +1,13 @@
-<!-- <button id="myButton"></button>
-<script>
-  setTimeout(function timeoutHandler(){
-    /*Some timeout handle code that runs for 6ms*/
-  }, 10);
 
-  setInterval(function intervalHandler(){
-    /*Some interval handle code that runs for 8ms*/
-  }, 10);
+<!--
 
-  const myButton = document.getElementById("myButton");      
-  myButton.addEventListener("click", function clickHandler(){
-     /*Some click handle code that runs for 10ms*/
-  });
+We were extra careful when saying that a timer provides the capability
+ to asynchronously delay the execution of a piece of code by at least a 
+ certain number of milliseconds. Because of the single-threaded nature of 
+ JavaScript, we can control only when the timer task is added to the queue,
+  and not when it’s finally executed! 
 
-  /*Code that runs for 18ms*/
-</script> -->
+-->
 
 <button id="myButton"></button>
 <script>
@@ -35,13 +28,5 @@
 </script>
 
 
-<!--
 
-We were extra careful when saying that a timer provides the capability
- to asynchronously delay the execution of a piece of code by at least a 
- certain number of milliseconds. Because of the single-threaded nature of 
- JavaScript, we can control only when the timer task is added to the queue,
-  and not when it’s finally executed! 
-
--->
 

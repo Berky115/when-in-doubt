@@ -5,13 +5,20 @@
 - esLint - configuration : https://eslint.org/docs/user-guide/configuring#configuring-rules
 - Instance vs prototype : https://www.thecodeship.com/web-development/methods-within-constructor-vs-prototype-in-javascript/
 - Prototyping example : https://livebook.manning.com/#!/book/secrets-of-the-javascript-ninja-second-edition/chapter-7/36
-
+- es6 cheatsheet: https://github.com/azat-co/cheatsheets/tree/master/es6
 
 ### Lodash 
 - All purpose reminder : https://devhints.io/lodash 
 - Useful functions : https://colintoh.com/blog/lodash-10-javascript-utility-functions-stop-rewriting 
 - Docs : https://lodash.com/docs/4.17.11 
 - Implementation ref : https://youmightnotneed.com/lodash/ 
+
+### D3
+- SVG / D3 render guide : https://www.dashingd3js.com/svg-basic-shapes-and-d3js
+- Reasons to use : https://medium.com/@mbostock/why-you-should-use-d3-ae63c276e958
+
+### React
+- Pure component vs stateless : https://medium.com/groww-engineering/stateless-component-vs-pure-component-d2af88a1200b
 
 ### RegEx
 - JS specific cheatsheet : https://www.debuggex.com/cheatsheet/regex/javascript
@@ -70,6 +77,7 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 
 # WebDev
 ## General
+- 12 Factor app : https://12factor.net/
 - Short: How does a browser work? : https://wsvincent.com/what-happens-when-url/
 - Long: How does a browser work? : https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a
 ### Short version:
@@ -86,4 +94,6 @@ You enter a URL into a web browser.
 8: Browser buils page based on html blueprint. Then reads in accosiated CSS/Javascript
 ```
 
+## Fun Facts
+skeuomorphic - where an object in software mimics its real world counterpart. The “trash can” is, perhaps, the most recognizable skeuomorphic object.
 

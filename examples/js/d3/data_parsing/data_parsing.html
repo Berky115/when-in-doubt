@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+<body>
+    <div class='cities' id="vizcontainer">
+        <svg style="width:500px;height:500px;border:1px lightgray solid;"></svg>
+    </div>
+    <script>
+        function dataViz(incomingData) {
+        d3.select("body").selectAll("div.cities")
+            .data(incomingData)
+            .enter()
+            .append("div")
+            .attr("class","cities")
+            .html(d => d.label);
+        }
+        let test = ['Dante', 'Nero', 'Vergil'];
+        dataViz(test);
+    </script>
+</body>
+</html>
