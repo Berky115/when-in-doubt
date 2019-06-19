@@ -1,11 +1,13 @@
 ## Step 1: Type web address into browser
+
 ## step 2: web address translates to IP from DNS (Domain Name System)
 - Check browser cache
 - Check OS cache
 - Check Router cache
 - Check ISP cache
 ## step 3:
-    IF not found, query sent to DNS to find
+    If not found, query sent to DNS to find
+
 ## Step 4: Browser initiates TCP connection to server
     In order to transfer data packets between your computer(client) and the server, it is
      important to have a TCP connection established. This connection is established using 

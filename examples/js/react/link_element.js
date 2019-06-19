@@ -1,4 +1,4 @@
-let linkReactElement = React.createElement('a',
-  {href: 'http://webapplog.com'},
-  'Webapplog.com'
-)
+let linkReactElement = React.createElement("a",
+  { href: "http://webapplog.com" },
+  "Webapplog.com"
+);
