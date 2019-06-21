@@ -7,6 +7,10 @@
 - Prototyping example : https://livebook.manning.com/#!/book/secrets-of-the-javascript-ninja-second-edition/chapter-7/36
 - es6 cheatsheet: https://github.com/azat-co/cheatsheets/tree/master/es6
 
+## Stay updated:
+- Latest/greatest javaScript features - https://developer.mozilla.org/en-US/docs/Archive/Web/JavaScript/ECMAScript_Next_support_in_Mozilla
+- Latest with React - https://reactjs.org/blog/2019/02/23/is-react-translated-yet.html
+
 ### Lodash 
 - All purpose reminder : https://devhints.io/lodash 
 - Useful functions : https://colintoh.com/blog/lodash-10-javascript-utility-functions-stop-rewriting 
