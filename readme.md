@@ -6,6 +6,7 @@
 - Instance vs prototype : https://www.thecodeship.com/web-development/methods-within-constructor-vs-prototype-in-javascript/
 - Prototyping example : https://livebook.manning.com/#!/book/secrets-of-the-javascript-ninja-second-edition/chapter-7/36
 - es6 cheatsheet: https://github.com/azat-co/cheatsheets/tree/master/es6
+- Excellent App Setup for MERN stack : https://codingthesmartway.com/the-mern-stack-tutorial-building-a-react-crud-application-from-start-to-finish-part-1/
 
 ## Stay updated:
 - Latest/greatest javaScript features - https://developer.mozilla.org/en-US/docs/Archive/Web/JavaScript/ECMAScript_Next_support_in_Mozilla
@@ -42,6 +43,19 @@ describe('Array', function() {
 	});
 });
 ```
+
+### Enzyle testing
+Official documentation - https://airbnxb.io/enzyme/docs/api/ReactWrapper/find.html
+General walk through and setup - https://scotch.io/tutorials/testing-react-components-with-enzyme-and-jest
+
+```
+it('Rank default values are passed on and rendered', () => {
+    const wrapper = mount(<GameUI/>);
+    expect(wrapper.find('.currentPoints').text()).toEqual('Points: 0');
+    expect(wrapper.find('.currentRank').text()).toEqual('Rank: 1');
+    expect(wrapper.find('.curretRankPoints').text()).toEqual('Rankpoints: 7');
+  });
+  ```
 
 ### Express - The little server that could:
 
