@@ -115,3 +115,6 @@ You enter a URL into a web browser.
 ## Fun Facts
 skeuomorphic - where an object in software mimics its real world counterpart. The “trash can” is, perhaps, the most recognizable skeuomorphic object.
 
+## VScode
+VSCode settings - https://code.visualstudio.com/docs/getstarted/settings
+
