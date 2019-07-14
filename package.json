@@ -4,7 +4,7 @@
   "description": "An app designed to house useful information for being a better dev!",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node index.js",
+    "start": "node index.js",
     "esLint": "node_modules/.bin/eslint"
   },
   "author": "Drew Facchiano",
