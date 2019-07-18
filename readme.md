@@ -81,9 +81,17 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 - General reference page: https://www.pythonsheets.com/
 - Standards page : https://www.pythonsheets.com/notes/python-code-style.html
 - Twitter Bot project : https://www.digitalocean.com/community/tutorials/how-to-create-a-twitterbot-with-python-3-and-the-tweepy-library
+- Virtual env cheat sheet - https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/
 
 # Ruby
 - Ruby Gems cheat sheet - https://medium.com/cedarcode/updating-gems-cheat-sheet-346d5666a181
+
+#EZProxy
+Proxy cheat sheet - https://help.oclc.org/Library_Management/EZproxy/Get_started/Evaluate_proxy_by_port_versus_proxy_by_hostname
+
+Terminology - https://help.oclc.org/Library_Management/EZproxy/EZproxy_configuration/Understanding_URLs_and_database_stanzas
+
+Stanzas - https://help.oclc.org/Library_Management/EZproxy/EZproxy_configuration/Introduction_to_database_stanza_directives
 
 Bundler cheat codes 
 ```
