@@ -86,7 +86,7 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 # Ruby
 - Ruby Gems cheat sheet - https://medium.com/cedarcode/updating-gems-cheat-sheet-346d5666a181
 
-#EZProxy
+# EZProxy
 Proxy cheat sheet - https://help.oclc.org/Library_Management/EZproxy/Get_started/Evaluate_proxy_by_port_versus_proxy_by_hostname
 
 Terminology - https://help.oclc.org/Library_Management/EZproxy/EZproxy_configuration/Understanding_URLs_and_database_stanzas
