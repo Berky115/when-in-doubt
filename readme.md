@@ -82,6 +82,22 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 - Standards page : https://www.pythonsheets.com/notes/python-code-style.html
 - Twitter Bot project : https://www.digitalocean.com/community/tutorials/how-to-create-a-twitterbot-with-python-3-and-the-tweepy-library
 
+# Ruby
+- Ruby Gems cheat sheet - https://medium.com/cedarcode/updating-gems-cheat-sheet-346d5666a181
+
+Bundler cheat codes 
+```
+bundle install #install all gems
+
+bundle update #update all gems to latest possible version. This ignores gemfile.lock, very possibly that it causes issues.
+
+bundle init #non-rails way to init a gemFile
+
+gem install bundler -v "~>1.0"  #If you NEED a version of bundler that is older use this...
+
+```
+
+
 
 # CSS 
 - Grid Garden Game : https://cssgridgarden.com/
