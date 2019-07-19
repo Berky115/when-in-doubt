@@ -126,11 +126,13 @@ shell commands - https://www.makeuseof.com/tag/mac-terminal-commands-cheat-sheet
 Useful commands to memorize:
 
 ```
-Ctrl + A	Go to the beginning of the line you're currently typing on
-Ctrl + E	Go to the end of the line you're currently typing on
-Ctrl + U	Clear the line before the cursor
+Ctrl + A	#Go to the beginning of the line you're currently typing on
+Ctrl + E	#Go to the end of the line you're currently typing on
+Ctrl + U	#Clear the line before the cursor
 
-Ctrl + D	Exit the current shell
+Ctrl + D	#Exit the current shell
+
+end task on port #kill -kill `lsof -t -i tcp:3000`
 ```
 
 
