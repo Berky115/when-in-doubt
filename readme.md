@@ -93,7 +93,7 @@ Terminology - https://help.oclc.org/Library_Management/EZproxy/EZproxy_configura
 
 Stanzas - https://help.oclc.org/Library_Management/EZproxy/EZproxy_configuration/Introduction_to_database_stanza_directives
 
-Bundler cheat codes 
+Bundler cheat codes
 ```
 bundle install #install all gems
 
@@ -105,17 +105,36 @@ gem install bundler -v "~>1.0"  #If you NEED a version of bundler that is older 
 
 ```
 
-
-
 # CSS 
 - Grid Garden Game : https://cssgridgarden.com/
 - Reference page : https://devhints.io/css
 - Flexbox guide : https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 - Flex Zombies Game : https://mastery.games/p/flexbox-zombies
 
+## Web templates
+[html5Up](https://html5up.net/) 
+[w3 schools](https://www.w3schools.com/w3css/w3css_templates.asp?source=post_page---------------------------)
+
 # Asp.net
 ## General
 - Get started! : https://docs.microsoft.com/en-us/visualstudio/ide/quickstart-aspnet-core?view=vs-2019
+
+# Terminal
+User-Agent setup - https://dev.to/levivm/how-to-use-ssh-and-ssh-agent-forwarding-more-secure-ssh-2c32
+shell commands - https://www.makeuseof.com/tag/mac-terminal-commands-cheat-sheet/
+
+Useful commands to memorize:
+
+```
+Ctrl + A	Go to the beginning of the line you're currently typing on
+Ctrl + E	Go to the end of the line you're currently typing on
+Ctrl + U	Clear the line before the cursor
+
+Ctrl + D	Exit the current shell
+```
+
+
+
 
 # WebDev
 ## General
@@ -135,6 +154,8 @@ You enter a URL into a web browser.
 7: Server sends response with page and status code
 8: Browser buils page based on html blueprint. Then reads in associated CSS/Javascript
 ```
+
+
 
 ## Fun Facts
 skeuomorphic - where an object in software mimics its real world counterpart. The “trash can” is, perhaps, the most recognizable skeuomorphic object.
