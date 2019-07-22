@@ -158,9 +158,9 @@ You enter a URL into a web browser.
 ```
 
 ## Security
-SQL injection - https://www.owasp.org/index.php/SQL_Injection
-Cross-site-scripting (xss) - https://www.owasp.org/index.php/SQL_Injection
-code Injection - https://www.owasp.org/index.php/Code_Injection
+[SQL injection](https://www.owasp.org/index.php/SQL_Injection)
+[Cross-site-scripting (xss)](https://www.owasp.org/index.php/SQL_Injection)
+[code Injection](https://www.owasp.org/index.php/Code_Injection)
 
 
 ## Fun Facts
