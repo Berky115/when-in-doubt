@@ -4,8 +4,10 @@
   "description": "An app designed to house useful information for being a better dev!",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "esLint": "node_modules/.bin/eslint"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "author": "Drew Facchiano",
   "license": "ISC",
@@ -18,10 +20,14 @@
     "jsdom": "^15.1.1",
     "node-fetch": "^2.6.0",
     "node-fetch-polyfill": "^2.0.6",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "^3.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.5",
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
     "@babel/node": "^7.4.5",
     "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0",
@@ -34,5 +40,17 @@
     "mocha": "^6.1.4",
     "nodemon": "^1.19.1",
     "stylelint": "^10.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
