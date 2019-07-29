@@ -2,8 +2,8 @@ import React from "react";
 import "./berky.css";
 import apple from "./images/apple.png";
 import stars from "./images/stars.png";
-import SubjectNav from './components/subjectNav';
-import TOPICS from './constants'
+import SubjectNav from "./components/subjectNav";
+import TOPICS from "./constants";
 
 function App() {
   return (
@@ -25,22 +25,22 @@ function App() {
       </div>
       <div id="gridBody_JS">
         <h1> Javascript</h1>
-        <SubjectNav subject={TOPICS.Lodash}/>
-        <SubjectNav subject={TOPICS.Testing}/>
+        <SubjectNav subject={TOPICS.Lodash} />
+        <SubjectNav subject={TOPICS.Testing} />
       </div>
 
       <div id="gridBody_CSS">
         <h1>CSS</h1>
-        <SubjectNav subject={TOPICS.CSS_GENERAL}/>
+        <SubjectNav subject={TOPICS.CSS_GENERAL} />
       </div>
 
       <div id="gridBody_GIT">
         <h1>Git</h1>
-        <SubjectNav subject={TOPICS.GIT_GENERAL}/>
+        <SubjectNav subject={TOPICS.GIT_GENERAL} />
       </div>
       <div id="gridBody_PYTHON">
         <h1>Python</h1>
-        <SubjectNav subject={TOPICS.PYTHON_GENERAL}/>
+        <SubjectNav subject={TOPICS.PYTHON_GENERAL} />
       </div>
     </div>
   );
