@@ -96,7 +96,8 @@ const TOPICS = {
       },
       {
         title: "Twitter bot project",
-        url: "https://www.digitalocean.com/community/tutorials/how-to-create-a-twitterbot-with-python-3-and-the-tweepy-library"
+        url:
+          "https://www.digitalocean.com/community/tutorials/how-to-create-a-twitterbot-with-python-3-and-the-tweepy-library"
       }
     ]
   }

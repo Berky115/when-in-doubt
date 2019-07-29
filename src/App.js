@@ -4,6 +4,7 @@ import apple from "./images/apple.png";
 import stars from "./images/stars.png";
 import SubjectNav from "./components/subjectNav";
 import TOPICS from "./constants";
+import Navbar from "./components/Navbar"
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           </a>
         </h4>
       </div>
+      <Navbar />
       <div id="gridBody_JS">
         <h1> Javascript</h1>
         <SubjectNav subject={TOPICS.Lodash} />
