@@ -1,7 +1,7 @@
 # When In Doubt
 A repository of code examples, useful refferences and helpful information.
 
-Monitor the builds [here](CI - https://circleci.com/gh/Berky115/workflows/when-in-doubt)
+Monitor CI builds [here](https://circleci.com/gh/Berky115/workflows/when-in-doubt)
 
 
 # JS
