@@ -1,104 +1,102 @@
 * {
-  font-family: 'Indie Flower', cursive;
-  margin: 0px;
-  text-decoration: none;
+	font-family: 'Indie Flower', cursive;
+	margin: 0px;
+	text-decoration: none;
 }
 
-
 a:hover {
-  color: whitesmoke;
+	color: whitesmoke;
 }
 
 #github_handle {
-  color: royalblue;
+	color: royalblue;
 }
 
 #red_highlight :hover {
-  color: red;
+	color: red;
 }
 
 html {
-  font:20px normal Arial, sans-serif;
+	font: 20px normal Arial, sans-serif;
 }
 
 body {
-  background-color: #fff;
-background-image:
-linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
-linear-gradient(#eee .1em, transparent .1em);
-background-size: 100% 1.2em;
-  text-align: center;
+	background-color: #fff;
+	background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+		linear-gradient(#eee 0.1em, transparent 0.1em);
+	background-size: 100% 1.2em;
+	text-align: center;
 }
 
 ul {
-  list-style:none;
-  display: inline-block;
+	list-style: none;
+	display: inline-block;
 }
 
-ul li{
-  display: inline-block;
-  padding: 10px 20px;
-  cursor:pointer;
-  background-color:#eee;
-  transition:0.3s;
+ul li {
+	display: inline-block;
+	padding: 10px 20px;
+	cursor: pointer;
+	background-color: #eee;
+	transition: 0.3s;
 }
 
-ul li:hover{
-  background-color:red;
-  color: white;
-  padding: 10px 120px;
+ul li:hover {
+	background-color: red;
+	color: white;
+	padding: 10px 120px;
 }
 
 #gridContainer {
-  display: grid;
-  grid-template-columns: repeat(10,10%);
-  grid-template-rows: repeat(20, 5%);
+	display: grid;
+	grid-template-columns: repeat(10, 10%);
+	grid-template-rows: repeat(20, 5%);
 }
 
 #gridHeader {
-  grid-column: 3/8;
-  grid-row: 2/4;
+	grid-column: 3/8;
+	grid-row: 2/4;
 }
-.small_header{
-  color: #302c20;
+.small_header {
+	color: #302c20;
 }
 
 #gridBody_JS {
-  order:1;
-  color: #6316c1;
-  grid-column: 1/10;
-  grid-row: 6/8;
+	order: 1;
+	color: #6316c1;
+	grid-column: 1/10;
+	grid-row: 6/8;
 }
 
 #gridBody_CSS {
-  order:1;
-  color: orangered;
-  grid-column: 1/10;
-  grid-row: 12;
+	order: 1;
+	color: orangered;
+	grid-column: 1/10;
+	grid-row: 12;
 }
 
 #gridBody_GIT {
-  order:1;
-  color: blue;
-  grid-column: 1/10;
-  grid-row: 16;
+	order: 1;
+	color: blue;
+	grid-column: 1/10;
+	grid-row: 16;
 }
 
 #gridBody_PYTHON {
-  order:1;
-  color: #17c166;
-  grid-column: 1/10;
-  grid-row: 19;
+	order: 1;
+	color: #17c166;
+	grid-column: 1/10;
+	grid-row: 19;
 }
 
 #apple {
-  order:1;
-  grid-column: 8/10;
-  grid-row: 3/8;
+	order: 1;
+	grid-column: 8/10;
+	grid-row: 3/8;
 }
 
 #stars {
-  order:-1;
-  grid-column: 2/3;
-  grid-row: 18;
+	order: -1;
+	grid-column: 2/3;
+	grid-row: 18;
 }
