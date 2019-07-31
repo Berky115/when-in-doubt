@@ -4,11 +4,8 @@
   text-decoration: none;
 }
 
-a:link, a:visited {
-  color: #292330;
-}
 
-a:link, a:hover {
+a:hover {
   color: whitesmoke;
 }
 
