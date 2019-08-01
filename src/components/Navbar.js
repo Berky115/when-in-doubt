@@ -18,8 +18,6 @@ class Navbar extends React.Component {
 
 		if (this.state.isModalOn) {
 			modal = <SubscribeForm />;
-		} else {
-			modal = <span />;
 		}
 		return (
 			<React.Fragment>

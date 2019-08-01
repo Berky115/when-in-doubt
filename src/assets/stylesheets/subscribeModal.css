@@ -37,7 +37,57 @@
 		opacity: 0;
 	}
 	to {
-		top: 0;
-		opacity: 1;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 	}
+}
+
+.modal-container {
+	z-index: 1115;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fefefe;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	animation-name: animatetop;
+	animation-duration: 0.4s;
+
+	width: 600px;
+	max-width: 100%;
+
+	height: 400px;
+	max-height: 100%;
+}
+
+.inner-modal {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	/* spacing as needed */
+	padding: 20px 50px 20px 20px;
+
+	/* let it scroll */
+	overflow: auto;
+}
+
+.modal-overlay {
+	z-index: 1000;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.5;
+}
+
+.modal-content .modal-container .closed {
+	display: none;
 }
