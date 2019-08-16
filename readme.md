@@ -1,8 +1,7 @@
+[![CircleCI](https://circleci.com/gh/Berky115/when-in-doubt/tree/master.svg?style=shield)](https://circleci.com/gh/Berky115/when-in-doubt/tree/master)
+
 # When In Doubt
 A repository of code examples, useful refferences and helpful information.
-
-Monitor CI builds [here](https://circleci.com/gh/Berky115/workflows/when-in-doubt)
-
 
 # JS
 
