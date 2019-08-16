@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/Berky115/when-in-doubt/tree/master.svg?style=shield=flat-square)](https://circleci.com/gh/Berky115/when-in-doubt/tree/master)
+[![CircleCI](https://circleci.com/gh/Berky115/when-in-doubt/tree/master.svg?style=shield)](https://circleci.com/gh/Berky115/when-in-doubt/tree/master)
 
 # When In Doubt
 A repository of code examples, useful refferences and helpful information.
