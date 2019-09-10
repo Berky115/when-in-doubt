@@ -175,3 +175,6 @@ skeuomorphic - where an object in software mimics its real world counterpart. Th
 ## VScode
 VSCode settings - https://code.visualstudio.com/docs/getstarted/settings
 
+## General Challenges:
+  - [FizzBuzzer](https://fizzbuzzer.com/)
+
