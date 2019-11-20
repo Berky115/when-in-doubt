@@ -1,10 +1,10 @@
 /* Remember...
-Double check work
-80% of the time it is simply small details
-Checks before method 'length size, equal to each other' show experience. Super easy to have around
-At the end of the day this is a problem that tests recursion
-Using debug statements quickly allowed us to determine where things where going
-Null and false are NOT the same. Be aware of this difference
+- Double check work
+- 80% of the time it is simply small details
+- Checks before method 'length size, equal to each other' show experience. Super easy to have around
+- At the end of the day this is a problem that tests recursion
+- Using debug statements quickly allowed us to determine where things where going
+- Null and false are NOT the same. Be aware of this difference
 */
 
 
