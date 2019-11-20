@@ -1,31 +1,29 @@
+/* Remember...
+Double check work
+80% of the time it is simply small details
+Checks before method 'length size, equal to each other' show experience. Super easy to have around
+At the end of the day this is a problem that tests recursion
+Using debug statements quickly allowed us to determine where things where going
+Null and false are NOT the same. Be aware of this difference
+*/
 
-function isDeepEqual(obj1 , obj2){
-    if(obj1 === obj2) return true;
 
-    const obj1Props = Object.getOwnPropertyNames(obj1); // give all properties on object
-    const obj2Props = Object.getOwnPropertyNames(obj2);
+function isDeepEqual (obj1, obj2){
+    if(obj1 === obj2) return true
 
-    if(obj1Props.length !== obj2Props.length) {
-        console.log("Hey not the same amount!");
-        return false;
+    obj1Props = Object.getOwnPropertyNames(obj1)
+    obj2Props = Object.getOwnPropertyNames(obj2)
+
+    if(obj1Props.length !== obj2Props.length) { console.log('uneven prop count');return false }
+
+    for(prop of obj1Props) {
+        if(obj2Props[prop] === null ) { console.log('prop not present');return false }
+        else if (typeof prop === 'Object') isDeepEqual(obj1Props[prop],obj2Props[prop])
+        else if (typeof prop === 'function') { if (obj1Props[prop].toString() !== obj2Props[prop].toString()) { console.log('functions not equals');return false } }
+        else if( obj1Props[prop] !== obj2Props[prop] ) { console.log('props not equal');return false }
     }
-
-    for(prop of obj1Props){
-        if(!obj2.hasOwnProperty(prop)){
-            console.log("Hey! Not here")
-            return false;
-        } else if (typeof obj1[prop] === 'object') {
-            isDeepEqual(obj1[prop], obj2[prop]);
-        } else if (typeof obj1[prop] === 'function') {
-            if(obj1[prop].toString() !== obj2[prop].toString()) return false
-        } else if (obj1[prop] !== obj2[prop]) {
-            console.log("Hey! Wrong value")
-            return false;
-        } 
-    }
-    return true;
+    return true
 }
-
 
 const obj = {
     val:1
@@ -40,11 +38,11 @@ const obj2 = {
 }
 
 const obj3 = {
-    person: "Sarah",
+    person: "Dante",
     role: "developer",
     likes: {
         pokemon: [],
-        maloy: false
+        Arkham: false
     }
 }
 
@@ -65,7 +63,6 @@ funcObj1 = {
 funcObj2 = {
     func : func2
 }
-
 
 console.log(isDeepEqual([],[]));
 console.log(isDeepEqual({val:1},{val:1}));
