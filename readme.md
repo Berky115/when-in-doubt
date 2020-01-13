@@ -12,6 +12,7 @@ A repository of code examples, useful refferences and helpful information.
 - Prototyping example : https://livebook.manning.com/#!/book/secrets-of-the-javascript-ninja-second-edition/chapter-7/36
 - es6 cheatsheet: https://github.com/azat-co/cheatsheets/tree/master/es6
 - Excellent App Setup for MERN stack : https://codingthesmartway.com/the-mern-stack-tutorial-building-a-react-crud-application-from-start-to-finish-part-1/
+- Array Explorer app: https://codepen.io/sdras/pen/gogVRX
 
 ## Stay updated:
 - Latest/greatest javaScript features - https://developer.mozilla.org/en-US/docs/Archive/Web/JavaScript/ECMAScript_Next_support_in_Mozilla
