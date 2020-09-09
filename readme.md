@@ -164,6 +164,8 @@ You enter a URL into a web browser.
 8: Browser buils page based on html blueprint. Then reads in associated CSS/Javascript
 ```
 - HTTP vs HTTPS : https://www.cloudflare.com/learning/ssl/why-is-http-not-secure/#:~:text=HTTPS%20is%20HTTP%20with%20encryption,uses%20HTTPS%20has%20https%3A%2F%2F.
+- API basics: https://dev.to/hpsetti/a-begineer-s-guide-to-apis-4b4d
+
 ## Security
 - [SQL injection](https://www.owasp.org/index.php/SQL_Injection)
 - [Cross-site-scripting (xss)](https://www.owasp.org/index.php/SQL_Injection)
