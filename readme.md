@@ -163,7 +163,7 @@ You enter a URL into a web browser.
 7: Server sends response with page and status code
 8: Browser buils page based on html blueprint. Then reads in associated CSS/Javascript
 ```
-
+- HTTP vs HTTPS : https://www.cloudflare.com/learning/ssl/why-is-http-not-secure/#:~:text=HTTPS%20is%20HTTP%20with%20encryption,uses%20HTTPS%20has%20https%3A%2F%2F.
 ## Security
 - [SQL injection](https://www.owasp.org/index.php/SQL_Injection)
 - [Cross-site-scripting (xss)](https://www.owasp.org/index.php/SQL_Injection)
