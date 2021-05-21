@@ -186,6 +186,11 @@ Session Storage
 Session storage acts in a similar way to local storage. The only difference here is that while data stored in local storage has an expiration date, the data stored in session storage will expire as soon as the page’s session ends, that’s it, when the page is closed.
 ```
 
+- What is the most concurrent users you've had to account for?
+- What is the most complicated application you've worked on?
+- What's a project you've worked on that you are particularly proud of?
+- What are you looking for in your next role?
+
 ## VScode
 VSCode settings - https://code.visualstudio.com/docs/getstarted/settings
 
