@@ -175,6 +175,17 @@ You enter a URL into a web browser.
 ## Fun Facts
 skeuomorphic - where an object in software mimics its real world counterpart. The “trash can” is, perhaps, the most recognizable skeuomorphic object.
 
+## Gauntlet of the damned
+
+- What is the difference between local and session storage?
+```
+Local Storage
+Local storage is used for storing data locally on a user’s browser, like saving user preferences or other settings. It is persisted through page reloads and stays with the browser until it is cleared manually or through a setting.
+
+Session Storage
+Session storage acts in a similar way to local storage. The only difference here is that while data stored in local storage has an expiration date, the data stored in session storage will expire as soon as the page’s session ends, that’s it, when the page is closed.
+```
+
 ## VScode
 VSCode settings - https://code.visualstudio.com/docs/getstarted/settings
 
